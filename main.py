@@ -157,7 +157,6 @@ class App(Tk):
 
         self.username = None
         self.current_screen = None
-
         user = get_user()
         if user:
             self.username = user
